@@ -1,0 +1,25 @@
+LINEAR SEARCH (RANDOM ARRAYS)
+
+-given: 
+	-Array of 5
+        -Values in random order
+------------------------------------------------------------------------
+
+Step 1  - Start.
+Step 2  - Guess the first number.
+Step 3  - If it is the required number skip to step 11 otherwise continue.
+Step 4  - Guess the second number.
+Step 5  - If it is the required number skip to step 11 otherwise continue.
+Step 6  - Guess the third number.
+Step 7  - If it is the required number skip to step 11 otherwise continue.
+Step 8  - Guess the fourth number.
+Step 9  - If it is the required number skip to step 11 otherwise continue.
+Step 10 - Value required is stored in 5
+Step 11 - Stop
+
+
+==============================================
+time complexity:
+Best case  	: 1 guess 	O(1)
+Worst case 	: 5 guesses	O(5)
+Average case	: 3 guesses	O(3) Using (n+1)/2=ans
