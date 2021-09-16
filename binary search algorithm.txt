@@ -1,0 +1,34 @@
+BINARY SEARCH (WORKS ON SORTED ARRAYS)
+
+-given: 
+	-Array of 9
+        -Values in acesending order
+------------------------------------------------------------------------
+
+-guess a number (eg 5)
+-if the number is higher then
+-1+5/2 = 3
+-check 3
+-if number is higher then
+-1+3 = 2
+-check 2
+-if number is higher then
+-value is stored in 1
+==============================================
+guesses took: 4
+
+ALTERNATIVE
+
+
+-guess a number (eg 5)
+-if the number is lower then
+-5+9/2 = 7
+-check 7
+-if number is lower then
+-7+9/2 = 8
+-check 8
+-if number is lower then
+-value is stored in 9
+==============================================
+guesses took: 4
+
